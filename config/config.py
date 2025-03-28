@@ -20,7 +20,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH","")
 
 
 ## Get it from @Botfather in Telegram.
@@ -61,11 +61,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Group ID or USERNAME for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "").strip()
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002357707746").strip()
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "6499432257").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -91,11 +91,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
-)  # Example:- https://t.me/TheTeamVivek
+    "SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY"
+)  # Example:- https://t.me/FEELING_SMILEY
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
-)  # Example:- https://t.me/TheTeamVk
+    "SUPPORT_GROUP", "https://t.me/FRIENSHIP_CLUB_GROUP"
+)  # Example:- https://t.me/FRIENSHIP_CLUB_GROUP
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -198,12 +198,12 @@ START_IMG_URL = getenv(
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://iili.io/3uohK3N.md.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/W_z.jpg",
+    "https://iili.io/3uohInf.md.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
