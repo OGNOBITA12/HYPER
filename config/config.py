@@ -1,7 +1,7 @@
 #
 # Copyright (C) 2024 by TheTeamVivek@Github, < https://github.com/TheTeamVivek >.
 #
-# This file is part of < https://github.com/TheTeamVivek/YukkiMusic > project,
+# This file is part of < https://github.com/OGNOBITA12/HYPER > project,
 # and is released under the MIT License.
 # Please see < https://github.com/TheTeamVivek/YukkiMusic/blob/master/LICENSE >
 #
@@ -51,7 +51,7 @@ EXTRA_PLUGINS = is_true(getenv("EXTRA_PLUGINS", "True"))
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheTeamVivek/Extra-Plugin",
+    "https://github.com/OGNOBITA12/HYPER",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -63,11 +63,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Group ID or USERNAME for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002357707746").strip()
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002428511388").strip()
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6499432257").split())
+    map(int, getenv("OWNER_ID", "7861988028").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -80,7 +80,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamVivek/YukkiMusic",
+    "https://github.com/OGNOBITA12/HYPER",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
