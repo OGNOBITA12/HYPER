@@ -1,4 +1,4 @@
-# 🎵 **YukkiMusic** 🎶
+# 🎵 **HyperMusic** 🎶
 
 [**HyperMusic**](https://github.com/ll-hyper/HYPER) is an enhanced version of the original [**HyperMusicBot**](https://github.com/ll-hyper/HYPER), optimized for high-quality music streaming in Telegram voice chats. Built with Python and Pyrogram. 🚀
 
